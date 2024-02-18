@@ -1,0 +1,32 @@
+Use Cables from Router to Switch == GigabiteEthernet0/0/0 | GigabiteEthernet0/1 
+Use Cables from Switch to PC == FastEthernet0 | FastEthernet0/1
+
+Configure the PC 
+click the PC and go to the config and change the Display name
+
+Change the IP Address
+click the PC and go to the Desktop, go to the IP configuration and set the IP Address.
+
+01. Goto the Startup Level or Initial Configuration Level
+    open terminal form desktop now you can see this.
+    "Would you like to enter the initial configuartion dialog? [yes/no]:"
+    if that display you here in Initial Configuration Value
+
+02. To go to the Rommon Level -- [rommon 1>]
+switch off and on Router when loaded the PC terminal Press Ctrl+c. when you go to the Rommon Level.
+
+03. To go to the User Level -- [Router>]
+when startup level type "no" you go to the user level
+
+04. To go to the Privilleged level -- [Router#]
+type in user level like this -- Router> enable
+
+05. To go to the Configuration Level -- [Router(config)#]
+type in privileged level like this -- Router# configure terminal
+
+Display the Clock
+This show in the Privileged Level type in the privileged level -- Router#show clock
+To set the Time and Date -- Router#clock set 22:25:26 18 November 2024
+To change the hostname you go to the Configuration Level
+Type in Configuration Level -- Router(config)# hostname R-01
+Next display like this -- R-01(config)#
